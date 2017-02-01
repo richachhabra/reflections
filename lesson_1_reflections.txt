@@ -45,7 +45,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
 
-    the git log lists all the commit ids along with their author, date and the
+    The git log lists all the commit ids along with their author, date and the
 	commit message while git diff allows to compare two commits by listing the
 	differences between two commits.
 
