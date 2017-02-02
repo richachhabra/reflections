@@ -24,10 +24,17 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-qwertydgchjdskhgkhkllgfkdjgldhthjyjdt
 
+	If we have made more than one logical changes in our working directory and 
+	want one commit per logical change then we add only those files with that 
+	logical change to the staging area, from where we can commit those changes 
+	into the repository. Similarly we can do this for all the logical changes 
+	separately. 
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	
 
 How do the diagrams help you visualize the branch structure?
 
