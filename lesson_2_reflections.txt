@@ -45,11 +45,28 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-	Diagrams help to  visualize the parent of each commit in the form of a tree
-	from different branches.
+	Diagrams help to visualize the parent of each commit in the form of a tree
+	from different branches and to determine which commit belongs to which 
+	branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result of merging two branches is that the changes made to the same 
+	files are aggregated and stored together by comparing them with each other
+	and the commit where these branches were created.
+	We represent the diagram in such a way because the two branches are now 
+	combined into a single commit though having two parents each directing to
+	separate set of previous commits.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	The pros of Git's automatic merging is that the author does not have to 
+	burn his head to merge the contents of the different versions of files 
+	though this might induce errors in the merged files as most of the times
+	newly added lines are added to the merged files as well even if they might
+	have some other form in the other versions of the same file.
+	The pros for manual merge is that the cons of automatic merge don't occur
+	here and the cons are that the author has to burn his head in merging the
+	files which is very tideous.
